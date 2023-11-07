@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+}
+.h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.bg-home {
+  background-image: url("../img/detoxcuresmoothie.jpg");
+}
+.bg-gradiant {
+  background-image: linear-gradient(to top, #f59e28, #feb4c3);
+}
+.bg-orange {
+  background-color: #f59e28;
+}
