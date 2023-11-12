@@ -13,72 +13,77 @@
 </head>
 
 <body>
-    <header class="container bg-home bg-cover h-[300px] bg-center flex flex-col gap-12">
-        <nav class="flex items-center justify-between text-sm">
-            <img src="img/logoblanc.svg" alt="Logo Smoothie" class="w-16 h-16">
-            <ul class="flex justify-end">
-                <li class="mr-6">
-                    <a href="index.php" class="text-white">Accueil</a>
-                </li>
-                <li class="mr-6">
-                    <a href="index.php" class="text-white">Produits</a>
-                </li>
-                <li class="mr-6">
-                    <a href="index.php" class="text-white">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <h1 class="text-white text-center text-5xl">Fabricant de produit bio</h1>
+    <header class="bg-home bg-cover h-[300px] lg:h-[500px] bg-center">
+        <div class="container flex flex-col gap-12 lg:gap-44">
+            <nav class="flex items-center justify-between text-sm lg:text-lg mt-2">
+                <img src="img/logoblanc.svg" alt="Logo Smoothie" class="w-16 h-fit lg:w-20">
+                <ul class="flex justify-end gap-6">
+                    <li>
+                        <a href="index.php" class="text-white">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="index.php" class="text-white">Produits</a>
+                    </li>
+                    <li>
+                        <a href="index.php" class="text-white">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="text-white text-center text-5xl">Fabricant de produit bio</h1>
+        </div>
     </header>
     <main>
-        <section class="container flex flex-col items-center justify-center py-10 text-center gap-10">
-            <img class="w-48 h-48" src="img/fond rose.jpg" alt="Jus avec un fond rose">
+        <section class="container flex flex-col lg:flex-row items-center justify-center py-10 text-center gap-10">
+            <img class="w-48 h-fit lg:w-96" src="img/fond rose.jpg" alt="Jus avec un fond rose">
             <article class="flex flex-col gap-5">
                 <h2 class="h2">Notre devise</h2>
-                <p>Lorem ipsum dolor sit,
+                <p class="lg:text-left">Lorem ipsum dolor sit,
                     amet consectetur adipisicing elit. Eligendi in nobis consequuntur, quibusdam tenetur consequatur ad
                     dolor sapiente. Tempore quibusdam deleniti ratione exercitationem minus!
                     Eum praesentium nostrum alias sunt placeat!
                 </p>
             </article>
         </section>
-        <section
-            class="container mx-auto flex flex-col justify-center items-center pt-10 pb-20 text-center gap-8 bg-gradiant text-white font-bold">
-            <h2 class="h2">méthode de fabrication</h2>
-            <article class="flex flex-col gap-4">
-                <img class="mx-auto" src="img/tree-02.png" alt="Icon Arbre">
-                <p>Nos producteurs récoltent les meilleurs fruits à la main</p>
-            </article>
-            <article class="flex flex-col gap-4">
-                <img class="mx-auto" src="img/bike-bmx.png" alt="Icon Vélos">
-                <p>Nos fruits sont livrés par des méthodes de transport écologiques</p>
-            </article>
-            <article class="flex flex-col gap-4">
-                <img class="mx-auto" src="img/chef.png" alt="Icon de Chef">
-                <p>Nos smoothiers préparent vos smoothies à la demande et sous vos yeux</p>
-            </article>
-            <article class="flex flex-col gap-4">
-                <img class="mx-auto" src="img/juice.png" alt="Icon de Jus">
-                <p>Vous dégustez vos smoothie et sous l'ombre de nos palmiers</p>
-            </article>
+        <section class="bg-gradiant text-white font-bold">
+            <div class="container mx-auto flex flex-col justify-center items-center pt-10 pb-20 text-center gap-8">
+                <h2 class="h2">méthode de fabrication</h2>
+                <article class="flex flex-col gap-4">
+                    <img class="mx-auto" src="img/tree-02.png" alt="Icon Arbre">
+                    <p>Nos producteurs récoltent les meilleurs fruits à la main</p>
+                </article>
+                <article class="flex flex-col gap-4">
+                    <img class="mx-auto" src="img/bike-bmx.png" alt="Icon Vélos">
+                    <p>Nos fruits sont livrés par des méthodes de transport écologiques</p>
+                </article>
+                <article class="flex flex-col gap-4">
+                    <img class="mx-auto" src="img/chef.png" alt="Icon de Chef">
+                    <p>Nos smoothiers préparent vos smoothies à la demande et sous vos yeux</p>
+                </article>
+                <article class="flex flex-col gap-4">
+                    <img class="mx-auto" src="img/juice.png" alt="Icon de Jus">
+                    <p>Vous dégustez vos smoothie et sous l'ombre de nos palmiers</p>
+                </article>
+            </div>
         </section>
         <section class="container mx-auto flex flex-col justify-center items-center pt-10 pb-20 text-center gap-8">
             <h2 class="h2">Le concept</h2>
-            <article class="flex flex-col gap-4">
-                <img class="mx-auto" src="img/blender.png" alt="Icon Arbre">
-                <h3 class="h3">Pressé sur place</h3>
-                <p>Nos producteurs récoltent les meilleurs fruits à la main</p>
-            </article>
-            <article class="flex flex-col gap-4">
-                <img class="mx-auto" src="img/kiwi.png" alt="Icon Vélos">
-                <h3 class="h3">Produits Frais</h3>
-                <p>Nos fruits sont livrés par des méthodes de transport écologiques</p>
-            </article>
-            <article class="flex flex-col gap-4">
-                <img class="mx-auto" src="img/organic.png" alt="Icon de Chef">
-                <h3 class="h3">Produit bio et locaux</h3>
-                <p>Nos smoothiers préparent vos smoothies à la demande et sous vos yeux</p>
-            </article>
+            <div class="flex flex-col lg:flex-row pt-10 pb-20 justify-center items-center text-center gap-8 w-full">
+                <article class="flex flex-col gap-4 lg:w-1/3">
+                    <img class="mx-auto" src="img/blender.png" alt="Icon Arbre">
+                    <h3 class="h3">Pressé sur place</h3>
+                    <p>Nos producteurs récoltent les meilleurs fruits à la main</p>
+                </article>
+                <article class="flex flex-col gap-4 lg:w-1/3">
+                    <img class="mx-auto" src="img/kiwi.png" alt="Icon Vélos">
+                    <h3 class="h3">Produits Frais</h3>
+                    <p>Nos fruits sont livrés par des méthodes de transport écologiques</p>
+                </article>
+                <article class="flex flex-col gap-4 lg:w-1/3">
+                    <img class="mx-auto" src="img/organic.png" alt="Icon de Chef">
+                    <h3 class="h3">Produit bio et locaux</h3>
+                    <p>Nos smoothiers préparent vos smoothies à la demande et sous vos yeux</p>
+                </article>
+            </div>
         </section>
     </main>
     <footer class="bg-orange py-5 text-center text-white">
